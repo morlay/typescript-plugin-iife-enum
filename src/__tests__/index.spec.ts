@@ -14,6 +14,7 @@ const cases = [{
 } return Test; })();
 `,
 }, {
+  only: true,
   title: "wrapper enum with export",
   src: `export enum Test {
   K = 1
